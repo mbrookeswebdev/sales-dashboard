@@ -1,5 +1,8 @@
-### Sales Dashboard
-#### created using React, PrimeReact (PrimeFlex grid, charts, a data table), FontAwesome and axios.
+### Sales Dashboard (front-end part of the application)
+
+*Technologies used:* React, PrimeReact (PrimeFlex grid, charts, a data table), FontAwesome, axios.
+
+*Purpose:* Built to learn React library.
 
 ### Available Scripts
 
