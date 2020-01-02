@@ -1,4 +1,5 @@
-## Sales Dashboard - created using React, PrimeReact (PrimeFlex grid, charts, a data table), FontAwesome and axios.
+## Sales Dashboard
+### this application was created using React, PrimeReact (PrimeFlex grid, charts, a data table), FontAwesome and axios.
 
 ## Available Scripts
 
