@@ -1,0 +1,18 @@
+[
+  {
+   "type": "direct",
+   "number": "5600"
+  },
+  {
+    "type": "affiliate",
+    "number": "4400"
+  },
+  {
+    "type": "email",
+    "number": "5000"
+  },
+  {
+    "type": "sponsored",
+    "number": "627"
+  }
+]

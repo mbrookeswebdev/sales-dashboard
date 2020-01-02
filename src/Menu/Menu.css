@@ -1,0 +1,18 @@
+.menu {
+    margin: 2%;
+    padding-right: 5%;
+    padding-left: 3%;
+    background-color: white;
+}
+
+@media only screen and (max-width: 576px) {
+    .largeScreenMenu {
+        display: none;
+    }
+}
+
+@media only screen and (min-width: 576px) {
+    .mobileMenu {
+        display: none;
+    }
+}

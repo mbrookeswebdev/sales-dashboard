@@ -1,0 +1,37 @@
+[
+  {
+    "title": "Hairdryer",
+    "description": "Styling Shot and Intelligent OPTIHeat Control Settings, 2400 W.",
+    "price": "25.99",
+    "quantity": "430",
+    "amount": "11175.70"
+  },
+  {
+    "title": "Smart Bulb Bundle with Bluetooth",
+    "description": "Get started in no time – with no complex installation required you can start controlling your smart LED lights straight out of the box with your smart device or voice.",
+    "price": "29.99",
+    "quantity": "402",
+    "amount": "12055.98"
+  },
+  {
+    "title": "Solar Fence Lights",
+    "description": "Solar security lights outdoor, 8 LED, day white 6000K, IP65 waterproof, automatically light-up and store solar energy, perfect used in pathway, hallway, fence, 4 pack.",
+    "price": "11.99",
+    "quantity": "170",
+    "amount": "2038.30"
+  },
+  {
+    "title": "Scented Candle",
+    "description": "Citrus fruit, up to 150 hours burn time.",
+    "price": "12.99",
+    "quantity": "90",
+    "amount": "1169.10"
+  },
+  {
+    "title": "Vacuum Cleaner",
+    "description": "Powerful bagged vacuum cleaner with Class A energy. Includes dusting nozzle and crevice nozzle, conveniently attached to the vacuum's body.",
+    "price": "54.99",
+    "quantity": "10",
+    "amount": "540.99"
+  }
+]

@@ -1,0 +1,62 @@
+[
+  {
+    "month": 1,
+    "anticipated": 1200,
+    "actual": 1008
+  },
+  {
+    "month": 2,
+    "anticipated": 1100,
+    "actual": 1835
+  },
+  {
+    "month": 3,
+    "anticipated": 1300,
+    "actual": 1888
+  },
+  {
+    "month": 4,
+    "anticipated": 1300,
+    "actual": 765
+  },
+  {
+    "month": 5,
+    "anticipated": 1000,
+    "actual": 987
+  },
+  {
+    "month": 6,
+    "anticipated": 800,
+    "actual": 683
+  },
+  {
+    "month": 7,
+    "anticipated": 500,
+    "actual": 275
+  },
+  {
+    "month": 8,
+    "anticipated": 150,
+    "actual": 198
+  },
+  {
+    "month": 9,
+    "anticipated": 1900,
+    "actual": 2100
+  },
+  {
+    "month": 10,
+    "anticipated": 1900,
+    "actual": 1900
+  },
+  {
+    "month": 11,
+    "anticipated": 1900,
+    "actual": 1987
+  },
+  {
+    "month": 12,
+    "anticipated": 1950,
+    "actual": 2001
+  }
+]
