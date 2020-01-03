@@ -46,12 +46,13 @@ class Orders extends Component {
         return (
             <div className="orders p-grid">
                 <div className="p-col p-lg-10">
-                    <h5>Orders:</h5>
-                    <div><h5>{this.state.numberOfOrders}</h5>
-                        {(this.state.positive ?
-                            <FontAwesomeIcon icon={faArrowUp} style={{color: 'green'}}/> :
-                            <FontAwesomeIcon icon={faArrowDown} style={{color: 'red'}}/>)}
-                        <span style={{color: this.state.positive ? 'green' : 'red'}}> {this.state.percentage}% since last month</span>
+                    <h3>Orders:</h3>
+                    <div><h4>{this.state.numberOfOrders}</h4>
+                        {(Math.sign(this.state.percentage) === 1 ?
+                            <div style={{color: 'green'}}><FontAwesomeIcon icon={faArrowUp}/> {this.state.percentage}%
+                                since last month</div> :
+                            <div style={{color: 'red'}}><FontAwesomeIcon icon={faArrowDown}/> {this.state.percentage}%
+                                since last month</div>)}
                     </div>
                 </div>
                 <div className={"p-col p-lg-2"} style={{textAlign: "right"}}>

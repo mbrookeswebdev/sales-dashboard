@@ -74,7 +74,7 @@ export class SalesChart extends Component {
             <div className="chart">
                 {(this.state.data) &&
                 <div>
-                    <h5 style={{textAlign: "center"}}>Projected sales VS actual sales</h5>
+                    <h3 style={{textAlign: "center"}}>Projected sales VS actual sales</h3>
                     <Chart type="bar" data={stackedData} options={stackedOptions}/>
                 </div>}
             </div>

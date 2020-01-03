@@ -40,12 +40,12 @@ class TopSellingProducts extends Component {
         }
         return (
             <div className="topProducts">
-                <h5 style={{textAlign: "center"}}>Top selling products:</h5>
+                <h3 style={{textAlign: "center"}}>Top selling products:</h3>
                 <DataTable value={this.state.data} autoscale="true">
                     <Column style={{textAlign: "left"}} field="title" header="Title"/>
-                    <Column style={{textAlign: "left"}} field="price" header="Price"/>
+                    <Column style={{textAlign: "left"}} field="price" header="Price(£)"/>
                     <Column style={{textAlign: "left"}} field="quantity" header="Quantity"/>
-                    <Column style={{textAlign: "left"}} field="amount" header="Amount Sold"/>
+                    <Column style={{textAlign: "left"}} field="amount" header="Amount Sold(£)"/>
                 </DataTable>
             </div>
         );

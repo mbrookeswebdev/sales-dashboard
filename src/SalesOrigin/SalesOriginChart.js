@@ -58,7 +58,7 @@ class SalesOriginChart extends Component {
             <div className="salesOrigin">
                 {(this.state.data) &&
                 <div>
-                    <h5 style={{textAlign: "center"}}>Total sales origin:</h5>
+                    <h3 style={{textAlign: "center"}}>Total sales origin:</h3>
                     <Chart type="pie" data={data}/>
                 </div>}
             </div>

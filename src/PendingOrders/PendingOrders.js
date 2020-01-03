@@ -40,9 +40,9 @@ class PendingOrders extends Component {
         return (
             <div className="pendingOrders p-grid">
                 <div className={"p-col p-lg-10"}>
-                    <h5>Pending orders:</h5>
-                    <div><h5>{this.state.data &&
-                    this.state.data}</h5></div>
+                    <h3>Pending orders:</h3>
+                    <div><h4>{this.state.data &&
+                    this.state.data}</h4></div>
                 </div>
                 <div className={"p-col p-lg-2"} style={{textAlign: "right"}}>
                     <FontAwesomeIcon className="fa-2x" icon={faTruck} style={{

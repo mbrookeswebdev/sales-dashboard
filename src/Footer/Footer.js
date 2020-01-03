@@ -10,7 +10,7 @@ class Footer extends Component {
     render() {
         let date = new Date().getFullYear();
         return (
-            <div style={{textAlign: "center", margin: "10%"}}>Copyright &copy; Electric City {date} </div>
+            <div style={{textAlign: "center", margin: "5%"}}>Copyright &copy; Electric City {date} </div>
         );
     }
 }

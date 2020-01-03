@@ -4,7 +4,7 @@ import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faArrowDown, faArrowUp, faMoneyBillWaveAlt} from "@fortawesome/free-solid-svg-icons";
 import axios from "axios";
 //methods used in several components are placed in the shared code file to avoid repetition
-import {calculatePercentage} from '../SharedCode/SharedCode.js';
+import {calculateNumber, calculatePercentage} from '../SharedCode/SharedCode.js';
 
 /**
  * Revenue Component
@@ -21,7 +21,6 @@ class Revenue extends Component {
             percentage: null
         };
 
-        this.calculateSum = this.calculateSum.bind(this);
         this.getData = this.getData.bind(this);
     }
 
@@ -33,20 +32,12 @@ class Revenue extends Component {
         // fake data comes from a json file, but the url can be easily changed if an API is available
         let response = await axios.get('http://localhost:3000/data/Revenue.json');
         if (response.data) {
-            const number = this.calculateSum(response.data);
+            const number = calculateNumber(response.data);
             const percentage = calculatePercentage(response.data);
             this.setState({data: response.data, sum: number, percentage: percentage});
         } else {
             console.log('error');
         }
-    }
-
-    calculateSum(data) {
-        let number = 0;
-        for (let i = 0; i < data.length; i++) {
-            number += data[i].sum;
-        }
-        return number;
     }
 
     render() {
@@ -56,12 +47,13 @@ class Revenue extends Component {
         return (
             <div className="revenue p-grid">
                 <div className={"p-col p-lg-10"}>
-                    <h5>Total revenue this year:</h5>
-                    <div><h5>{this.state.sum}</h5>
-                        {(this.state.positive ?
-                            <FontAwesomeIcon icon={faArrowUp} style={{color: 'green'}}/> :
-                            <FontAwesomeIcon icon={faArrowDown} style={{color: 'red'}}/>)}
-                        <span style={{color: this.state.positive ? 'green' : 'red'}}> {this.state.percentage}% since last month</span>
+                    <h3>Total revenue this year:</h3>
+                    <div><h4>{this.state.sum}</h4>
+                        {(Math.sign(this.state.percentage) === 1 ?
+                            <div style={{color: 'green'}}><FontAwesomeIcon icon={faArrowUp}/> {this.state.percentage}%
+                                since last month</div> :
+                            <div style={{color: 'red'}}><FontAwesomeIcon icon={faArrowDown}/> {this.state.percentage}%
+                                since last month</div>)}
                     </div>
                 </div>
                 <div className={"p-col p-lg-2"} style={{textAlign: "right"}}>

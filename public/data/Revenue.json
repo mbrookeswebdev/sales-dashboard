@@ -1,50 +1,50 @@
 [
   {
     "month": 0,
-    "sum": 6895
+    "number": 6895
   },
   {
     "month": 1,
-    "sum": 8334
+    "number": 8334
   },
   {
     "month": 2,
-    "sum": 7888
+    "number": 7888
   },
   {
     "month": 3,
-    "sum": 5765
+    "number": 5765
   },
   {
     "month": 4,
-    "sum": 4987
+    "number": 4987
   },
   {
     "month": 5,
-    "sum": 3683
+    "number": 3683
   },
   {
     "month": 6,
-    "sum": 2275
+    "number": 2275
   },
   {
     "month": 7,
-    "sum": 1198
+    "number": 1198
   },
   {
     "month": 8,
-    "sum": 2500
+    "number": 2500
   },
   {
     "month": 9,
-    "sum": 2900
+    "number": 2900
   },
   {
     "month": 10,
-    "sum": 4987
+    "number": 4987
   },
   {
     "month": 11,
-    "sum": 5001
+    "number": 5001
   }
 ]

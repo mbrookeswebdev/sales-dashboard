@@ -44,7 +44,7 @@ class Dashboard extends Component {
                     <div className="p-col-12 p-md-12 p-lg-6" style={{backgroundColor: "#e3f2fd"}}><SalesChart/></div>
                 </div>
 
-                <div className="p-grid p-nogutter" style={{backgroundColor: "#e3f2fd"}}>
+                <div className="p-grid" style={{backgroundColor: "#e3f2fd"}}>
                     <div className="p-col-12 p-md-12 p-lg-6" style={{backgroundColor: "#e3f2fd"}}><TopSellingProducts/>
                     </div>
                     <div className="p-col-12 p-md-12 p-lg-6" style={{backgroundColor: "#e3f2fd"}}><SalesOriginChart/>
