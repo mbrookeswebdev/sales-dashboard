@@ -5,7 +5,7 @@
 *Purpose:* Built to learn React library.
 
 
-![Sales Dashboard](https://github.com/mbrookeswebdev/sales-dashboard/blob/master/sales-dashboard.png)
+
 
 ### Available Scripts
 
