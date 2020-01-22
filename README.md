@@ -1,6 +1,6 @@
 ### Sales Dashboard (front-end part of the application)
 
-*Technologies used:* React, PrimeReact (PrimeFlex grid, charts, a data table), FontAwesome, axios.
+*Technologies used:* React, PrimeReact (PrimeFlex grid, charts, a data table), FontAwesome, Axios.
 
 *Purpose:* Built to learn React library.
 
